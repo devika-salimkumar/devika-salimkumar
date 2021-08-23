@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type = "text/css" href="/public/homepage.css">
+    <link rel="stylesheet" type = "text/css" href="/public/flightform.css">
+    <link rel="stylesheet" type = "text/css" href="/public/bookingpage.css">
+    <title>Let's Go Airlines</title>
+    <link rel="shortcut icon" type="image/png" href="/public/favicon.png">
+</head>
+<body>
+
+    <header>
+
+        <div class = "wrapper">
+            <div class= "logo">
+                <img src="/public/logo.jpg"
+                width="100" 
+                height="90"
+                alt=""> 
+
+            </div>
+                
+            <div class= "name">
+                <a href = "#"> LET'S GO Airlines</a>
+           </div>
+
+            <ul class="nav-area">
+                <li><a href="#"> Home</a></li>
+                <li><a href="#id_overview"> Overview</a></li>
+                <li><a href="#id_vision"> Vision</a></li>
+                <li><a href="#id_value"> Value</a></li>
+                <li><a href="#">Help</a></li>
+                
+            </ul>
+
+        </div>
+        
+
+    </header>
+    
+   
+        <div id="search-form">
+        <div id="header">
+          <h1>SEARCH FOR FLIGHTS</h1>
+        </div>
+        <section>
+          <div class="flight" id="flightbox">
+            
+            <form id="flight-form">
+            <!-- FROM/TO -->
+            <div id="flight-depart">
+              <div class="info-box">
+                <label for="">ORGIN</label>
+                <select required name='to' id= "orgin_place" onchange='this.form()'>
+                    <option value="">Select a location...</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="New Delhi">New Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Kolakata">Kolkata</option>
+                    <option value="Cochin">Cochin</option>
+                    <option value="Trivandrum">Trivandrum</option>
+                    <option value="Bangalore">Bangalore</option>
+                </select>
+                <div id="depart-res"></div>
+              </div>
+              <div class="info-box" id="arrive-box">
+                <label for="">DESTINATION</label>
+                <select required name='to' id ="destination_place" onchange='this.form()'>
+                    <option value="">Select a location...</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="New Delhi">New Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Kolakata">Kolkata</option>
+                    <option value="Cochin">Cochin</option>
+                    <option value="Trivandrum">Trivandrum</option>
+                    <option value="Bangalore">Bangalore</option>
+                </select>
+                <div id="arrive-res"></div>
+              </div>
+            </div>
+            
+            <!-- FROM/TO -->
+            <div id="flight-dates">
+              <div class="info-box">
+                <label for="">LEAVING ON</label>
+                <input type="date" id="leave_date" required="required" />
+              </div>
+              <!--<div class="info-box" id="return-box">
+                <label for="">RETURNING ON</label>
+                <input type="date" id="return_date"/>
+              </div>
+            </div>-->
+            
+            <!-- PASSENGER INFO -->
+            <div id="flight-info">
+              <div class="info-box">
+                <label for="adults">ADULTS</label>
+                <select name="adults" id="adults_no">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                </select>
+              </div>
+          </div>
+          
+            <!-- SEARCH BUTTON-->
+          <div id="flight-search">
+            <div class="info-box">
+             <input type="submit" id="search-flight" value="SEARCH FLIGHTS" />
+             <a href="searchresults.html"></a>
+            </div>
+          </div>
+          </div>
+          </form> 
+          </div>
+        </section>
+      
+          
+    </div>
+   
+
+
+    <div class = "overview">
+    <h1 id="id_overview" style = "color: #191970;" >
+        Overview
+    </h1>  
+
+        <p style="padding-bottom:600px">
+        Let’s Go Airlines is the project name for a new airline company that will focus on single class long-haul scheduled flights. Let’s Go Airlines will capitalise on the widening gap in long-haul travel between business and economy class. Let’s Go Airlines will operate Boeing 757-200 aircraft configured with 80 seats which will provide a very spacious and pleasant environment. The aircraft will be equipped with the latest technology in order to enable the business traveller to use his time efficiently while travelling. The company will start by leasing two aircraft and expand its fleet to 6 aircraft by the second year of operation. Let’s Go will be a "business to business" airline and will focus exclusively on the premium/business segment of the market. It will offer customers a compelling value proposition: a high level of service and comfort at 50 percent of the current published
+        business-class fare. In addition to an attractive price, Let’s Go will offer passengers considerable time savings, convenience, and will focus on creating a lifestyle appeal.
+        </p>
+    </div>
+
+    <div class = "vision">
+    <h1 id="id_vision" style = "color: #191970;">
+        Vision
+    </h1> 
+    
+        <p style="padding-bottom:700px">Let's Go aims to establish itself as a niche player in the long-haul market of business travel. By continuously focusing on the needs of the premium class business traveller, Let’s Go will provide the best value proposition in the markets it serves.
+
+        </p>
+    </div>
+
+    <div class = "value">
+    <h1 id ="id_value" style = "color:  #191970;">
+        Value
+    </h1> 
+        <p style="padding-bottom:500px">We exist to provide a valuable service to our customers, a rewarding opportunity for our employees, and profitability to our shareholders. We believe that success in this endeavor depends on our employees. Satisfied employees lead to satisfied customers, which lead to satisfied shareholders. To achieve this, we enable our employees to act with an entrepreneurial spirit, and we value those willing to take responsibility for their actions and the consequences of those actions. We treat employees as family, which fosters intimacy, informality, strong relationships, caring attitudes, and it makes work more fun. We want our customers to experience legendary service that makes a lasting impression. Providing exceptional value to customers requires hard work and concentration. We believe in doing things right the first time. We take pride in our efforts as well as the rewards. Throughout this endeavor, safety will be the overriding force behind any decision.
+
+     </p>
+    </div>
+
+    <script src='homepage.js'> </script>
+    <script src='flightform.js'> </script>
+    <script src='bookingpage.js'></script>
+</body>
+</html>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var orgin_place =  '';
+        var destination_place =  '';
+        var leave_date =  '';
+        var adults_no =  '';
+        $("input").on("propertychange change keyup paste input", function(){
+            dateofjourney =  $('#leave_date').val();
+            numberof =  $('#adults_no').val();
+            if(origin!='' && destination_place!='' && leave_date!='' && adults_no!=''){
+                $('#submit-button').prop("disabled", false);
+            }else{
+                $('#submit-button').prop("disabled", true);
+            }
+        });
+        $('select').on('change', function() {
+            origin =  $('#origin option:selected').val();
+            destination =  $('#destination option:selected').val();
+            if(origin!='' && destination!='' && dateofjourney!='' && numberof!=''){
+                $('#search-flight').prop("disabled", false);
+            }else{
+                $('#search-flight).prop("disabled", true');
+            }
+        });
+        $('#submit-button').on('click', function(){
+           window.location.href= './searchresults?origin_place='+origin_place+'&destination_place='+destination_place+'&leave_date='+leave_date+'&adults_no ='+adults_no;
+        })
+        $(function(){
+            var dtToday = new Date();
+            
+            var month = dtToday.getMonth() + 1;
+            var day = dtToday.getDate();
+            var year = dtToday.getFullYear();
+            if(month < 10)
+                month = '0' + month.toString();
+            if(day < 10)
+                day = '0' + day.toString();
+            
+            var maxDate = year + '-' + month + '-' + day;
+            $('#leave_date').attr('min', maxDate);
+        });
+    })
+</script>
