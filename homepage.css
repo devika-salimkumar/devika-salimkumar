@@ -1,0 +1,83 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+	width: 1170px;
+	margin: auto;
+}
+header {
+	height: 150px;
+    width: 1258px;
+}
+header {
+	-webkit-background-size: cover;
+    background : #1E90FF;
+	background-size: cover;
+	background-position : center center;
+	position: relative;
+}
+
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+	
+}
+.nav-area li a {
+	color: black;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-area li a:hover {
+	background: #191970;
+	color: #fff;
+}
+
+.logo {
+	float: left;
+}
+.logo img {
+	width: 100%;
+	padding: 15px 0;
+}
+
+.name a {
+	padding: 20px;
+    font-family: "Times New Roman", Times, serif;
+	font-size: 35px;
+	display: inline-block;
+	color: #fff;
+}
+
+.form-page{
+	
+	position: relative;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.overview{
+    font-family: "Times New Roman", Times, serif;
+    color : #191970;
+    text-align : justify;
+    font-size : 110%;
+}
+
+.vision{
+    font-family: "Times New Roman", Times, serif;
+    color : #191970;
+    text-align : justify;
+    font-size : 110%;
+}
+
+.value{
+    font-family: "Times New Roman", Times, serif;
+    color : #191970;
+    text-align : justify;
+    font-size : 110%;
+}

@@ -1,0 +1,47 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.booking{
+    font-family: "Times New Roman", Times, serif;
+    color : green;
+    width: 200px;
+    border: 3px solid #9aa09a;
+    padding: 3px;
+    margin: 5px;
+    font-weight: bold;
+    text-align : justify;
+    font-size : 135%;
+}   
+
+label {
+    display: block;
+    margin: 1px;
+    padding: 1px;
+  }
+  
+  .inf {
+    margin: 1px;
+    padding: 1px;
+  }
+  
+  input:invalid {
+    background-color: #ffdddd;
+  }
+  
+  input:valid {
+    background-color: #ddffdd;
+  }
+  input:required {
+    border-color: #800000;
+    border-width: 3px;
+  }
+  
+  input:required:invalid {
+    border-color: #c00000;
+  }
+
+  .button1{
+    color: black;
+    font-size:1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
